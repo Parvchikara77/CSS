@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        main{
+            width: 800px;
+            height: 600px;
+            background-color: rgb(169, 164, 165);
+            margin: 0 auto;
+            flex-direction: column;
+            gap: 10px;
+            
+        }
+        header,footer{
+            height: 40px;
+            background-color: lightcoral;
+        }
+        nav{
+            height: 40px;
+            background-color: lightgreen;
+        }
+        section{
+            height: 200px;
+            display: flex;
+            gap: 5px;
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            margin: 0;
+            padding: 5px;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            box-shadow: inset;
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header><h2 align="center">ABES</h2></header>
+        <section>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSZVBdSn-1xDcTSccAw3D6ISpSIP07nzFcQA&s" >
+            <div id="right">
+                <aside><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias pariatur in saepe, omnis labore excepturi voluptatem rerum possimus debitis nemo suscipit nam quam hic perspiciatis quas tempore quis sequi veritatis.</h2></aside>
+            </div>
+        </section>
+        <nav>
+
+            <h2 align="center">ABES</h2>
+
+        </nav>
+        <p>
+         <aside><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit amet quaerat repellendus quam ipsum minima eius architecto, aperiam obcaecati necessitatibus iure corporis, porro tempore sequi consequatur impedit. Minima, reprehenderit similique.</h2></aside> 
+        </p>
+    </main>
+</body>
+</html>
